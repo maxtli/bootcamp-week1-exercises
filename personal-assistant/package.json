@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://<GITHUB_USERNAME>.github.io/<APP_NAME>",
   "scripts": {
+    "hello": "echo hello",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
