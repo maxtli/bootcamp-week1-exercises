@@ -1,5 +1,6 @@
 import React from 'react'
+import { TitleStrip } from './styles'
 
-const heading = ({ title }) => <h1>{title}</h1>
+const heading = ({ title }) => <TitleStrip>{title}</TitleStrip>
 
 export default heading

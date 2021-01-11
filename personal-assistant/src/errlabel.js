@@ -1,10 +1,10 @@
 import React from 'react'
 import cancelSrc from './cancel.png'
-import { GTable, EdImgButton } from './styles'
+import { EdImgButton } from './styles'
 
 export default ({ list, setList, search }) => {
   return list.length ? (
-    <GTable>
+    <table>
       <tbody>
         <tr key="0">
           <td><b>Item</b></td>
@@ -23,6 +23,6 @@ export default ({ list, setList, search }) => {
           </tr>
         )))}
       </tbody>
-    </GTable>
+    </table>
   ) : <div>Nothing to do.</div>
 }
