@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Input, Button, ErrLabel } from './styles'
+import { Input, Button, ErrLabel } from '../../../../styles'
 
 export default ({ setSearch, err, setErr }) => {
   const searchBar = useRef()
